@@ -17,7 +17,7 @@ module.exports = {
       // Extract css files
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract("style-loader", "css-loader")
+        loader: ExtractTextPlugin.extract("style-loader", "css-loader!autoprefixer-loader?{browsers:['last 4 versions', '> 1% in BR']}")
       },
       // Optionally extract less files
       // or any other compile-to-css language
