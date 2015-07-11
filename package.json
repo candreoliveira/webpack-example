@@ -1,0 +1,27 @@
+{
+  "name": "webpack-example",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "multiply.js",
+  "dependencies": {
+    "css-loader": "^0.15.2",
+    "style-loader": "^0.12.3"
+  },
+  "devDependencies": {
+    "css-loader": "^0.15.2",
+    "style-loader": "^0.12.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/candreoliveira/webpack-example.git"
+  },
+  "author": "candreoliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/candreoliveira/webpack-example/issues"
+  },
+  "homepage": "https://github.com/candreoliveira/webpack-example#readme"
+}
